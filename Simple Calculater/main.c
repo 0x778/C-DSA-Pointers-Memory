@@ -43,7 +43,7 @@ if (symbol == '-')
 if (symbol == '*')
    printf("%i",multi(num1,num2));
 if (symbol == '/')
-   printf("%i",div(num1,num2));
+   printf("%i",divide(num1,num2));
 if (symbol == '%')
    printf("%i",mod(num1,num2));
 }
