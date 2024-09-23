@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 #define HIGHLENGTH 20
-
+#define EMPTY 0
 int stacklist[HIGHLENGTH];
-
 int * last = stacklist;
-int counter = 0 ;
+int counter = EMPTY ;
+
 void Push(int x){
     if (counter < HIGHLENGTH)
     {
